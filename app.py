@@ -41,7 +41,6 @@ class WOTCollector(object):
                 c = GaugeMetricFamily(
                     data['id'],
                     data['name'],
-                    labels=[device]
                 )
 
                 k = list(data['values'].keys())
